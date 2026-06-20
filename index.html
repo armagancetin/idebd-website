@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İde | Kurumsal</title>
+  <meta name="description" content="İde kurumsal web sitesi - çözümler, hakkımızda ve iletişim." />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="İde Ana Sayfa">
+        <img src="images/ide-logo-blue.png" alt="İde" class="site-logo" />
+        <span class="brand-text">İş Çözümleri</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services">Çözümlerimiz</a>
+        <a href="#preview">Dashboard</a>
+        <a href="#about">Hakkımızda</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <p class="badge">Oyunlaştırma · Dijitalleşme · Kurumsal Çözümler</p>
+          <h1>Güvenilir temeller, işinizi büyüten modern çözümler.</h1>
+          <p class="muted">
+            İşletmenize özel dijital dönüşüm yolculuğunda; bütünleşik iş çözümleri ve dijital zeka araçlarını harmanlayarak, yazılım geliştirme ve danışmanlık alanlarında uçtan uca stratejik destek sunuyoruz.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn primary" href="#contact">Teklif Al</a>
+            <a class="btn ghost" href="#services">Çözümlerimizi Gör</a>
+          </div>
+
+          <div class="kpiRow reveal">
+            <div class="kpi">
+              <div class="kpi__top">
+                <span class="dot dot-blue"></span>
+                <span class="kpi__label">Deneyim</span>
+              </div>
+              <div class="kpi__value"><span class="count" data-target="30">0</span><span class="plus">+</span></div>
+              <div class="kpi__hint muted">Yıl</div>
+            </div>
+
+            <div class="kpi">
+              <div class="kpi__top">
+                <span class="dot dot-cyan"></span>
+                <span class="kpi__label">Proje</span>
+              </div>
+              <div class="kpi__value"><span class="count" data-target="250">0</span><span class="plus">+</span></div>
+              <div class="kpi__hint muted">Teslim</div>
+            </div>
+
+            <div class="kpi">
+              <div class="kpi__top">
+                <span class="dot dot-white"></span>
+                <span class="kpi__label">Destek</span>
+              </div>
+              <div class="kpi__value">7/24</div>
+              <div class="kpi__hint muted">Süreç takibi</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashWrap reveal">
+          <div class="dashTop">
+            <div class="trafficLights">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="dashTitle">İde Analytics</div>
+            <div class="dashPills">
+              <span class="pillLite">Live</span>
+              <span class="pillLite">v2.0</span>
+            </div>
+          </div>
+
+          <div class="dashGrid">
+            <div class="panel panel--big">
+              <div class="panel__head">
+                <div>
+                  <div class="panel__title">Operasyonel Verimlilik</div>
+                  <div class="panel__sub muted">Son 30 gün • Trend</div>
+                </div>
+                <div class="chip">+12.8%</div>
+              </div>
+
+              <svg class="chart" viewBox="0 0 420 140" preserveAspectRatio="none" aria-label="line chart">
+                <defs>
+                  <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(59,130,246,.55)"/>
+                    <stop offset="100%" stop-color="rgba(59,130,246,0)"/>
+                  </linearGradient>
+                </defs>
+                <path class="chartGrid" d="M0 20H420 M0 60H420 M0 100H420" />
+                <path class="chartLine" d="M10 108 L55 92 L92 98 L130 70 L170 74 L214 48 L255 56 L300 34 L340 42 L410 22"/>
+                <path class="chartFill" d="M10 108 L55 92 L92 98 L130 70 L170 74 L214 48 L255 56 L300 34 L340 42 L410 22 L410 140 L10 140 Z" fill="url(#g1)"/>
+              </svg>
+
+              <div class="miniStats">
+                <div class="miniStat">
+                  <div class="miniStat__k muted">Süreç</div>
+                  <div class="miniStat__v">Stabil</div>
+                </div>
+                <div class="miniStat">
+                  <div class="miniStat__k muted">Hata</div>
+                  <div class="miniStat__v">Düşüş</div>
+                </div>
+                <div class="miniStat">
+                  <div class="miniStat__k muted">Kapasite</div>
+                  <div class="miniStat__v">+18%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="panel__head">
+                <div>
+                  <div class="panel__title">Aktivite</div>
+                  <div class="panel__sub muted">Bugün</div>
+                </div>
+              </div>
+
+              <ul class="activity">
+                <li><span class="badgeDot b1"></span> Dashboard raporu güncellendi <span class="muted">· 10:12</span></li>
+                <li><span class="badgeDot b2"></span> Süreç otomasyonu çalıştırıldı <span class="muted">· 11:05</span></li>
+                <li><span class="badgeDot b3"></span> Veri modeli optimize edildi <span class="muted">· 13:48</span></li>
+                <li><span class="badgeDot b4"></span> İyileştirme önerisi eklendi <span class="muted">· 16:20</span></li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <div class="panel__head">
+                <div>
+                  <div class="panel__title">Modüller</div>
+                  <div class="panel__sub muted">Bütünleşik yapı</div>
+                </div>
+              </div>
+
+              <div class="bars">
+                <div class="barRow"><span class="muted">ERP</span><div class="bar"><i class="w-78"></i></div></div>
+                <div class="barRow"><span class="muted">CRM</span><div class="bar"><i class="w-64"></i></div></div>
+                <div class="barRow"><span class="muted">HR</span><div class="bar"><i class="w-52"></i></div></div>
+                <div class="barRow"><span class="muted">MES</span><div class="bar"><i class="w-70"></i></div></div>
+              </div>
+            </div>
+
+            <div class="panel panel--wide">
+              <div class="panel__head">
+                <div>
+                  <div class="panel__title">Kalite Skoru</div>
+                  <div class="panel__sub muted">Ölçülebilir gelişim</div>
+                </div>
+                <div class="chip chip--cyan">A+</div>
+              </div>
+
+              <div class="donutWrap">
+                <div class="donut p-82"></div>
+                <div class="donutText">
+                  <div class="donutBig">82%</div>
+                  <div class="muted">SLA Uyum</div>
+                </div>
+              </div>
+
+              <div class="hint muted">Not: Gösterim amaçlı dashboard.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section lightSection" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+  <h2>Çözümlerimiz</h2>
+  <p class="muted">
+    İşletmenizin ihtiyaçlarına göre ölçeklenebilir kurumsal çözümler.<br>
+    Daha fazla ayrıntı ve işletmenize özel çözüm sağlayabilmek için bizimle iletişime geçmenizi rica ederiz.
+  </p>
+</div>
+
+        <div class="grid6">
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="images/sign2futurelogo.png" alt="Motivasyon" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Motivasyon Çözümleri</h3>
+    <p class="muted">Oyunlaştırma danışmanlığı, eğitim, platform ve atölye çalışmaları.</p>
+    <div class="tagRow">
+      <span class="tag">Motivasyon</span><span class="tag">Performans</span>
+    </div>
+  </article>
+
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/2784/2784459.png" alt="Veri" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Akıllı Veri Yönetim Sistemi</h3>
+    <p class="muted">Verinizi yaşayan bir dijital zeka sistemine dönüştüren veri yönetimi yaklaşımı.</p>
+    <div class="tagRow">
+      <span class="tag">Model</span><span class="tag">Raporlama</span>
+    </div>
+  </article>
+
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721261.png" alt="Dijitalleşme" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Üretimde dijitalleşme ve verimlilik</h3>
+    <p class="muted">Sektör bağımsız MES–IoT üretim yürütme sistemi, süreç otomasyonu, verimlilik, çalışan adaptasyonu.</p>
+    <div class="tagRow">
+      <span class="tag">IoT</span><span class="tag">Otomasyon</span>
+    </div>
+  </article>
+
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="İş" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Bütünleşik İş Çözümleri</h3>
+    <p class="muted">Rekabet gücünü artıran bütünleşik yapı (All in One) sunan ERP çözümleri.</p>
+    <div class="tagRow">
+      <span class="tag">ERP</span><span class="tag">CRM</span>
+    </div>
+  </article>
+
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Danışmanlık" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Yönetim Danışmanlığı</h3>
+    <p class="muted">Kurumsal yapılanma, performans ve değer zinciri iyileştirme çalışmaları.</p>
+    <div class="tagRow">
+      <span class="tag">Strateji</span><span class="tag">İyileştirme</span>
+    </div>
+  </article>
+
+  <article class="cardBox reveal">
+    <div class="cardIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="Yazılım" class="solution-icon" loading="lazy">
+    </div>
+    <h3>Yazılım Çözümleri</h3>
+    <p class="muted">İhtiyaca özel geliştirme, entegrasyon ve sürdürülebilir bakım desteği.</p>
+    <div class="tagRow">
+      <span class="tag">API</span><span class="tag">Entegrasyon</span>
+    </div>
+  </article>
+</div>
+
+    <section class="section alt" id="preview">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Dashboard Preview</h2>
+          <p class="muted">Kurumsal metrikler, süreç izleme ve raporlama paneli deneyimi.</p>
+        </div>
+
+        <div class="previewGrid">
+          <div class="panel panel--big reveal">
+            <div class="panel__head">
+              <div>
+                <div class="panel__title">Raporlama & Analitik</div>
+                <div class="panel__sub muted">Sade, hızlı ve ölçülebilir</div>
+              </div>
+              <div class="chip">Realtime</div>
+            </div>
+            <svg class="chart" viewBox="0 0 420 140" preserveAspectRatio="none" aria-label="line chart">
+              <path class="chartGrid" d="M0 20H420 M0 60H420 M0 100H420" />
+              <path class="chartLine chartLine--cyan" d="M10 98 L55 86 L92 92 L130 66 L170 72 L214 44 L255 52 L300 40 L340 34 L410 28"/>
+              <path class="chartFill chartFill--cyan" d="M10 98 L55 86 L92 92 L130 66 L170 72 L214 44 L255 52 L300 40 L340 34 L410 28 L410 140 L10 140 Z"/>
+            </svg>
+          </div>
+
+          <div class="panel reveal">
+            <div class="panel__head">
+              <div>
+                <div class="panel__title">Durum</div>
+                <div class="panel__sub muted">Servis sağlığı</div>
+              </div>
+            </div>
+            <div class="statusList">
+              <div class="statusItem"><span class="statusDot ok"></span> API Entegrasyon <span class="muted">· OK</span></div>
+              <div class="statusItem"><span class="statusDot ok"></span> Veri Akışı <span class="muted">· OK</span></div>
+              <div class="statusItem"><span class="statusDot warn"></span> Rapor Kuyruğu <span class="muted">· Yoğun</span></div>
+              <div class="statusItem"><span class="statusDot ok"></span> İzleme <span class="muted">· OK</span></div>
+            </div>
+          </div>
+
+          <div class="panel reveal">
+            <div class="panel__head">
+              <div>
+                <div class="panel__title">Özet</div>
+                <div class="panel__sub muted">KPI kartları</div>
+              </div>
+            </div>
+            <div class="kpiMiniGrid">
+              <div class="kpiMini">
+                <div class="muted">Teslim</div>
+                <div class="big">250+</div>
+              </div>
+              <div class="kpiMini">
+                <div class="muted">Deneyim</div>
+                <div class="big">30+</div>
+              </div>
+              <div class="kpiMini">
+                <div class="muted">Memnuniyet</div>
+                <div class="big">A+</div>
+              </div>
+              <div class="kpiMini">
+                <div class="muted">Destek</div>
+                <div class="big">7/24</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ctaBar reveal">
+          <div>
+            <div class="ctaTitle">İşletmenizin yapısına uygun süreç tasarlayalım.</div>
+            <div class="muted">Süreç analizi → kurulum → raporlama → destek</div>
+          </div>
+          <a class="btn primary" href="#contact">İletişime Geç</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container twoCol">
+        <div class="reveal">
+          <h2>Hakkımızda</h2>
+          <p class="muted">
+            İde; kurumsal yapılanma, dijitalleşme ve teknoloji odaklı dönüşüm projelerinde işletmelere
+            çözüm üretir. Hedefimiz; ölçülebilir verimlilik, sürdürülebilir büyüme ve güçlü bir operasyonel yapı kurmaktır.
+          </p>
+
+          <div class="pillRow">
+            <span class="pill">Güvenilir</span>
+            <span class="pill">Şeffaf</span>
+            <span class="pill">Sonuç Odaklı</span>
+          </div>
+        </div>
+
+        <div class="panel reveal">
+          <div class="panel__head">
+            <div>
+              <div class="panel__title">Nasıl Çalışıyoruz?</div>
+              <div class="panel__sub muted">Net süreç, net çıktı</div>
+            </div>
+          </div>
+          <ol class="steps">
+            <li>İhtiyaç analizi</li>
+            <li>Plan & tasarım</li>
+            <li>Uygulama & entegrasyon</li>
+            <li>Test & yayın</li>
+            <li>Destek</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container twoCol">
+        <div class="reveal">
+          <h2>İletişim</h2>
+          <p class="muted">Size dönüş yapabilmemiz için bilgileri bırakın.</p>
+
+          <div class="contactInfo">
+            <div class="infoLine"><span>📍</span> İstanbul</div>
+            <div class="infoLine"><span>📞</span> <a href="tel:+902163104500">0 (216) 310 45 00</a></div>
+            <div class="infoLine"><span>✉️</span> <a href="mailto:iletisim@idebd.com.tr">iletisim@idebd.com.tr</a></div>
+          </div>
+        </div>
+
+        <form class="form panel reveal" id="contactForm" onsubmit="return handleSubmit(event)">
+          <label>
+            Ad Soyad
+            <input required name="name" placeholder="Adınız" />
+          </label>
+          <label>
+            Telefon / E-posta
+            <input required name="contact" placeholder="05xx... / mail@..." />
+          </label>
+          <label>
+            Mesaj
+            <textarea required name="message" rows="4" placeholder="Kısaca ihtiyacınızı yazın..."></textarea>
+          </label>
+          <button class="btn primary" type="submit">Gönder</button>
+          <p class="tiny muted" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer reveal">
+    <div class="container footer__inner">
+      <span class="muted">© <span id="year"></span> İde. Tüm hakları saklıdır.</span>
+      <div class="footerLinks">
+  <a href="#services">Çözümlerimiz</a>
+  <a href="#preview">Dashboard</a>
+  <a href="#about">Hakkımızda</a>
+  <a href="#contact">İletişim</a>
+  <a href="mailto:iletisim@idebd.com.tr">iletisim@idebd.com.tr</a>
+</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
